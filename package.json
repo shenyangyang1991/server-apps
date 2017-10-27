@@ -2,8 +2,9 @@
   "name": "server-apps",
   "version": "0.0.1",
   "description": "api server.",
-  "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "webpack"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shenyangyang1991/server-apps.git"
@@ -11,7 +12,7 @@
   "keywords": [
     "node",
     "mysql",
-    "express",
+    "koa",
     "redis",
     "mongodb"
   ],
@@ -22,6 +23,12 @@
   },
   "homepage": "https://github.com/shenyangyang1991/server-apps#readme",
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
     "webpack": "^3.8.1"
-  }
+  },
+  "dependencies": {}
 }

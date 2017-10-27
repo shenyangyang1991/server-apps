@@ -57,5 +57,11 @@ typings/
 # dotenv environment variables file
 .env
 
+# Editor file
 .idea/
+
+# Npm
 package-lock.json
+
+# Webpack output file
+dist/
