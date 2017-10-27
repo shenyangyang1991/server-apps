@@ -1,0 +1,27 @@
+{
+  "name": "server-apps",
+  "version": "0.0.1",
+  "description": "api server.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shenyangyang1991/server-apps.git"
+  },
+  "keywords": [
+    "node",
+    "mysql",
+    "express",
+    "redis",
+    "mongodb"
+  ],
+  "author": "shenyangyang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shenyangyang1991/server-apps/issues"
+  },
+  "homepage": "https://github.com/shenyangyang1991/server-apps#readme",
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
+}
